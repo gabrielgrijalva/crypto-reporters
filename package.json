@@ -1,5 +1,5 @@
 {
-  "name": "crypto-reporters",
+  "name": "@gabrielgrijalva/crypto-reporters",
   "version": "1.0.0",
   "description": "Crypto reporters for calls and emails.",
   "main": "./index.js",
