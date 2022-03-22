@@ -22,7 +22,8 @@ export type callParams = {
  */
 export type emailParams = {
   to: string;
-  html: string;
+  html?: string;
+  text?: string;
   from: string;
   subject: string;
 }
