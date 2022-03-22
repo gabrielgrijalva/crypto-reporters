@@ -39,8 +39,8 @@ function CryptoReporters(settings) {
             subject: params.subject,
           }],
           content: [{
-            type: "text/html",
-            value: params.html
+            type: params.html ? 'text/html' : 'text/plain',
+            value: params.html || params.text,
           }],
           from: {
             email: params.from,
