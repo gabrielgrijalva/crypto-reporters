@@ -39,7 +39,9 @@ export type emailParams = {
 export type cryptoReportersSettings = {
   PLIVO_API_KEY: string,
   PLIVO_API_SECRET: string,
-  SENDGRID_API_KEY: string,
+  SENDGRID_API_KEY?: string,
+  GOOGLE_CLOUD_USER?: string,
+  GOOGLE_CLOUD_KEYS_FILE?: string,
 }
 /**
  * 
